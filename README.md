@@ -2,6 +2,9 @@
 > **Automated, Serverless Stock Data ETL:**  
 > End-to-end daily stock data pipeline using Amazon EventBridge, Lambda, S3, SQS, and DynamoDB.
 
+![Architecture](https://raw.githubusercontent.com/syedshaaharham/lambda-dynamopipeline/blob/main/architecture_diagram.jpeg)
+
+
 ## 🚀 Architecture Overview
 
 This pipeline automatically generates synthetic stock data daily, stores it securely, manages file notifications, processes uploaded CSVs, and loads final structured data into DynamoDB — all using AWS serverless features.
